@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.5.0'
 }
 
 group 'com.tistory.byrage.kotlin-in-action-example'
@@ -10,4 +11,16 @@ repositories {
 }
 
 dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.11"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.11"
+    }
 }
