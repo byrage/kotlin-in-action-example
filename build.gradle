@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.tistory.bryage.kotlin-in-action-example'
+group 'com.tistory.byrage.kotlin-in-action-example'
 version '1.0-SNAPSHOT'
 
 repositories {
