@@ -1,2 +1,2 @@
 # Last example of practice
-- https://github.com/Kotlin/kotlin-in-action/blob/master/src/ch02/2.2.2_CustomAccessors.kt
+- https://github.com/Kotlin/kotlin-in-action/blob/master/src/ch08/8.1.5_2_ReturningFunctionsFromFunctions1.kt
